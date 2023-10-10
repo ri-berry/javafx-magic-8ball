@@ -1,0 +1,15 @@
+.root {
+	-fx-background-color: #78F1FF;
+}
+
+#eight-ball {
+	-fx-fill: #000000;
+}
+
+#label-ball {
+	-fx-fill: #FFFFFF;
+}
+
+#label {
+	-fx-font-size: 100;	
+}

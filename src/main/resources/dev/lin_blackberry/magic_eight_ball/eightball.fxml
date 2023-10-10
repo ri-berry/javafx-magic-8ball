@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Text?>
+
+<Group styleClass="root" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.lin_blackberry.magic_eight_ball.EightBallController">
+   <children>
+    <Circle radius="200" id="eight-ball" layoutX="250" layoutY="250"></Circle>
+   	<Circle radius="100" id="label-ball" layoutX="250" layoutY="275"></Circle>
+   	<Text id="label" layoutX="220" layoutY="315">8</Text>
+   </children>
+</Group>
