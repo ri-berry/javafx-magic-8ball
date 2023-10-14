@@ -3,11 +3,15 @@
 <?import javafx.scene.Group?>
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.text.Text?>
+<?import javafx.scene.control.Button?>
+
 
 <Group styleClass="root" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dev.lin_blackberry.magic_eight_ball.EightBallController">
    <children>
     <Circle radius="200" id="eight-ball" layoutX="250" layoutY="250"></Circle>
-   	<Circle radius="100" id="label-ball" layoutX="250" layoutY="275"></Circle>
-   	<Text id="label" layoutX="220" layoutY="315">8</Text>
+   	<Circle fx:id="labelBall" id="label-ball" radius="100" layoutX="250" layoutY="275"></Circle>
+   	<Text fx:id="label" id="label" layoutX="220" layoutY="315">8</Text>
+   	<Button onAction="#shakeTheBall" layoutX="100" layoutY="470">Shake the 8 Ball!</Button>
+   	<Button onAction="#resetEightBall" layoutX="300" layoutY="470">Reset</Button>
    </children>
 </Group>

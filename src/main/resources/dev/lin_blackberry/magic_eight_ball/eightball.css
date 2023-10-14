@@ -1,9 +1,9 @@
 .root {
-	-fx-background-color: #78F1FF;
+	-fx-background-color: #c629cd;
 }
 
 #eight-ball {
-	-fx-fill: #000000;
+	-fx-background-color: #000000;
 }
 
 #label-ball {
@@ -12,4 +12,12 @@
 
 #label {
 	-fx-font-size: 100;	
+}
+
+#label-ball.shaken {
+	-fx-background-color: #000000;
+}
+
+#label.answer {
+	-fx-font-size: 40;
 }
